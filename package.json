@@ -1,0 +1,39 @@
+{
+	"name": "nestjs-methodset",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"typings": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AmrAnwar/nestjs-methodset.git"
+	},
+	"keywords": [
+		"nestjs",
+		"typescript",
+		"controller"
+	],
+	"author": "Amro",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AmrAnwar/nestjs-methodset/issues"
+	},
+	"homepage": "https://github.com/AmrAnwar/nestjs-methodset#readme",
+	"devDependencies": {
+		"@nestjs/common": "^9.0.0",
+		"class-validator": "^0.13.2",
+		"typeorm": "^0.3.7",
+		"typescript": "^4.8.4"
+	},
+	"peerDependencies": {
+		"@nestjs/common": "^9.0.0",
+		"class-validator": "^0.13.2",
+		"typeorm": "^0.3.7"
+	}
+}
